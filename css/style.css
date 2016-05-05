@@ -1,0 +1,36 @@
+header {
+  background-size: auto;
+  height: 1000px;
+  background-image: url("../Template/assets/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+.navbar-default {
+  background: rgba(0, 0, 0, 0.5);
+  border: none; }
+  .navbar-default .navbar-brand {
+    color: white; }
+  .navbar-default .navbar-nav li a {
+    color: white; }
+
+.jumbotron {
+  background-color: transparent; }
+  .jumbotron h1 {
+    color: white;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .jumbotron hr {
+    border-top: 3px solid #f05f40;
+    width: 6%; }
+  .jumbotron p {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    text-align: center; }
+  .jumbotron a {
+    background-color: #f05f40;
+    border: none; }
+
+/*# sourceMappingURL=style.css.map */

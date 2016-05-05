@@ -1,0 +1,53 @@
+$fuente-principal: 'Open Sans', sans-serif;
+$linea: 3px solid;
+$fuente-secundaria: 'Roboto Slab', serif;
+
+ 
+  header{
+	background-size: auto;
+	height: 1000px;
+	background-image: url("../Template/assets/header.jpg");
+	background-repeat:no-repeat;
+	background-position: center top;
+  }
+
+
+
+.navbar-default {
+      background: rgba(0,0,0,0.5);
+      border: none;
+     .navbar-brand {
+      color: white;
+      }
+      .navbar-nav li a {  	
+      	color: white;
+  }
+}
+
+
+.jumbotron {
+  background-color: transparent;
+   h1{
+    color: white;
+    text-align: center;
+    font-family: $fuente-principal;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
+    hr{
+    border-top: $linea #f05f40;
+    width: 6%;
+    }
+    p{
+      color: white;
+      font-family: $fuente-secundaria;
+      font-weight: 300;
+      text-align: center;
+    }
+    a{
+      background-color: #f05f40;
+      border: none;
+
+    }
+}
+
